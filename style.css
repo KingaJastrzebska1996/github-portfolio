@@ -44,3 +44,34 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px;
+}
+
+.slides {
+  display: flex;
+  animation: slide 30s linear infinite;
+}
+
+.slides img {
+  width: 300px;   
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+  flex-shrink: 0; 
+}
+
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
