@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Testera – Kinga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kinga Jastrzębska – Tester Oprogramowania</h1>
+        <p>Proste portfolio pokazujące moje projekty i rozwój w QA.</p>
+    </header>
+
+    <section id="about">
+        <h2>O mnie</h2>
+        <p>Jestem początkującym testerem oprogramowania, analityczna i dokładna.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projekty</h2>
+        <p>Na razie pracuję nad swoimi testami i raportami.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Email: <a href="mailto:twoj.email@example.com">twoj.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/">Twój LinkedIn</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kinga Jastrzębska</p>
+    </footer>
+</body>
+</html>
